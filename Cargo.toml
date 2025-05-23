@@ -1,0 +1,19 @@
+[package]
+name = "blockchain_explorer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alloy = { version = "1.0.6", features = ["full"] }
+anyhow = "1.0.98"
+clap = "4.5.38"
+dotenvy = "0.15.7"
+env_logger = "0.11.8"
+futures-util = "0.3.31"
+log = "0.4.27"
+parking_lot = "0.12.3"
+rand = "0.9.1"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_derive = "1.0.219"
+serde_json = { version = "1.0.140", features = ["default"] }
+tokio = { version = "1.45.0", features = ["full"] }
